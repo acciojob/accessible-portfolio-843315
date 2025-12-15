@@ -8,15 +8,39 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<nav>
-		<h1>Heading</h1>
-		<img src="https://thumbs.dreamstime.com/z/lonely-elephant-sitting-tree-branch-generative-ai-267893131.jpg" height="400px" width="300px">
-		<ul>
-			<li>Home</li>
-			<li>Branch</li>
-			<li>Department</li>
-		</ul>
-	</nav>
+	<!-- Heading -->
+  <h1 role="heading">Accessible Web Page Example</h1>
+
+  <!-- Navigation -->
+  <nav role="navigation">
+    <ul role="list">
+      <li role="listitem"><a href="#">Home</a></li>
+      <li role="listitem"><a href="#">About</a></li>
+      <li role="listitem"><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Image -->
+  <img
+    src="https://thumbs.dreamstime.com/z/lonely-elephant-sitting-tree-branch-generative-ai-267893131.jpg" height="300px" width="300px"
+    alt="A sample image demonstrating accessibility"
+    role="img"
+  />
+
+  <!-- Brief Description -->
+  <p>
+    This page demonstrates how specific ARIA roles can be bound to their
+    corresponding HTML elements to improve accessibility.
+  </p>
+
+  <!-- List -->
+  <ul role="list">
+    <li role="listitem">Semantic HTML</li>
+    <li role="listitem">ARIA roles</li>
+    <li role="listitem">Accessible design</li>
+  </ul>
+
+  
 	
     <script type="text/javascript" src="./script.js">
 </script>
